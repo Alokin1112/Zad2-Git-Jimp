@@ -32,7 +32,7 @@ int main(int argc, char ** argv) {
 	printToScreen(A);
 	int corr=isCorrect(A);
 	if(corr==1){
-		fprintf(stderr,"Algorytm dziala blednie\n");
+		fprintf(stderr,"Algorytm dziala blednie!\n");
 		return 1;
 	}
 	else{
