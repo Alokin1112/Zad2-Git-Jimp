@@ -19,7 +19,7 @@ int eliminate(Matrix *mat, Matrix *b){
 		        q=mat->data[w][k]/mat->data[k][k];
 			for(int i=0;i<n;i++)
 				mat->data[w][i]-=q*mat->data[k][i];
-			b->data[w][1]-=q*b->data[k][1];
+			b->data[w][0]-=q*b->data[k][0];
 		}
 	}
 	return 0;
