@@ -18,7 +18,6 @@ int main(int argc, char ** argv) {
 	int res;
 	Matrix * A = readFromFile(argv[1]);
 	Matrix * b = readFromFile(argv[2]);
-	Matrix * x;
 
 	if (A == NULL) return -1;
 	if (b == NULL) return -2;
