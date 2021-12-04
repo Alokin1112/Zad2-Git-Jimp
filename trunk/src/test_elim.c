@@ -1,4 +1,4 @@
-
+#include "gauss.h"
 #include "mat_io.h"
 #include <stdlib.h>
 #include <stdio.h>
