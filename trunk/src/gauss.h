@@ -8,5 +8,5 @@
  * Zwraca 1 - macierz osobliwa - dzielenie przez 0
  */
 int eliminate(Matrix *mat, Matrix *b);
-
+double ABS(double a);
 #endif
