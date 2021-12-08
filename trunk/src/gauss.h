@@ -10,4 +10,3 @@
    int eliminate(Matrix *mat, Matrix *b);
    double ABS(double a);
    #endif
-#endif
